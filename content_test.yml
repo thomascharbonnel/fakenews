@@ -1,0 +1,8 @@
+subject:
+  - Donald Trump
+object:
+  - Migrants
+action:
+  - will ban %{object}
+adverbial:
+  - tomorrow
