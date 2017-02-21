@@ -1,8 +1,6 @@
 subject:
   - Donald Trump
   - President Trump
-  - US Government
-  - The US
   - POTUS
 object:
   - Migrants
@@ -12,19 +10,37 @@ object:
   - Gays
   - CNN
   - Muslims
-  - Australia
+  - Australia's PM
   - Oil pipelines
   - French cheese
   - Mars
+  - Kellyanne Conway
+  - Sally Yates
+  - US ambassadors
+  - TV channels
+  - EPA
+  - Russia
+  - Putin
+  - Iran
+  - North Korea
 action:
-  - will ban %{object}
-  - will repeal the %{object} Act
-  - will lift sanctions over %{object}
+  - to ban %{object}
+  - to repeal the %{object} Act
+  - to lift sanctions over %{object}
+  - to dismantle %{object}
+  - to deport %{object}
   - calls %{object} out
   - blasts %{object}
+  - to present battle plan against %{object}
   - to reveal a new executive order
-  - to sue %{object} in the People's court
+  - to sue %{object}
+  - "says about %{object}: 'tremendous, huge',"
 adverbial:
-  - tomorrow
-  - with some fava beans and a nice chianti
+  - today
   - after his golf game
+  - again
+  - in the People's court
+  - after the appeals court decision
+  - after Fox&friends' intel briefing
+  - after Mike Pence's statement
+  - from his Mar-O-Lago estate
