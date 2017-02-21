@@ -23,9 +23,12 @@ object:
   - Putin
   - Iran
   - North Korea
+  - the weather
+  - the Bowling Green massacre
+  - Bad hombres
 action:
   - to ban %{object}
-  - to repeal the %{object} Act
+  - to repeal %{object} Act
   - to lift sanctions over %{object}
   - to dismantle %{object}
   - to deport %{object}
@@ -35,6 +38,10 @@ action:
   - to reveal a new executive order
   - to sue %{object}
   - "says about %{object}: 'tremendous, huge',"
+  - to 'grab %{object} by the p****'
+  - commands %{object} to shut up
+  - "on %{object}: 'untrue, fake news',"
+  - will make Mexicans pay for %{object}
 adverbial:
   - today
   - after his golf game
