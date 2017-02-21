@@ -1,0 +1,34 @@
+content:
+  subject:
+    - Donald Trump
+    - President Trump
+    - US Government
+    - The US
+    - POTUS
+
+  object:
+    - Migrants
+    - Potato Chips
+    - Kamasutra
+    - Abortion
+    - Gays
+    - CNN
+    - Muslims
+    - Australia
+    - Oil pipelines
+    - French cheese
+    - Mars
+
+  action:
+    - will ban %{object}
+    - will repeal the %{object} Act
+    - will lift sanctions over %{object}
+    - calls %{object} out
+    - blasts %{object}
+    - to reveal a new executive order
+    - to sue %{object} in the People's court
+
+  adverbial:
+    - tomorrow
+    - with some fava beans and a nice chianti
+    - after his golf game
