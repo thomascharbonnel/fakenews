@@ -11,3 +11,7 @@ Donald Trump to make Mexicans pay for Kellyanne Conway after his golf game
 ```
 
 The question is, what's fake and what's not?
+
+## Dependencies
+
+Execute: `go get gopkg.in/yaml.v2`.
