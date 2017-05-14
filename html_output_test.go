@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func ExampleGenerateHTML() {
-  fmt.Println(generateHTML("lol", "pony"))
+  fmt.Println(generateHTML("lol"))
 
   // Output:
   // <!doctype html>
@@ -65,9 +65,9 @@ func ExampleGenerateHTML() {
   // </head>
   // <body>
   //   <div id="frame">
-  //     <img id="background" src="pony">
+  //     <img id="background" src="photo">
   //     <p id="headline">lol</p>
-  //     <img id="logo" src="./trump_logo.jpg">
+  //     <img id="logo" src="logo">
   //   </div>
   // </body>
   // </html>
