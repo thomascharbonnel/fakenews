@@ -12,7 +12,7 @@ func generateHTML(headline string) string {
 <head>
   <meta charset="utf-8">
 
-  <title>{{.Title}} — Fake News Generator</title>
+  <title>{{.Headline}} — Fake News Generator</title>
   <meta name="description" content="Fake News Generator">
   <meta name="author" content="Thomas Charbonnel">
 
@@ -80,10 +80,8 @@ func generateHTML(headline string) string {
   check(err)
 
   data := struct {
-    Title string
     Headline string
   }{
-    Title: headline,
     Headline: headline,
   }
 
