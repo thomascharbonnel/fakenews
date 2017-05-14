@@ -5,7 +5,7 @@ import (
   "bytes"
 )
 
-func generateHTML(headline string, image_path string) string {
+func generateHTML(headline string) string {
   const tpl = `
 <!doctype html>
 <html lang="en">
@@ -66,9 +66,9 @@ func generateHTML(headline string, image_path string) string {
 </head>
 <body>
   <div id="frame">
-    <img id="background" src="{{.Photo}}">
+    <img id="background" src="photo">
     <p id="headline">{{.Headline}}</p>
-    <img id="logo" src="./trump_logo.jpg">
+    <img id="logo" src="logo">
   </div>
 </body>
 </html>
@@ -81,11 +81,9 @@ func generateHTML(headline string, image_path string) string {
 
   data := struct {
     Title string
-    Photo string
     Headline string
   }{
     Title: headline,
-    Photo: image_path,
     Headline: headline,
   }
 
