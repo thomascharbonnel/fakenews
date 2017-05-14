@@ -76,12 +76,6 @@ func generateHTML(headline string, image_path string) string {
 
   output := new(bytes.Buffer)
 
-  check := func(err error) {
-    if err != nil {
-      panic(err)
-    }
-  }
-
   t, err := template.New("index").Parse(tpl)
   check(err)
 
