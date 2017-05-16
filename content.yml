@@ -26,6 +26,9 @@ object:
   - the weather
   - the Bowling Green massacre
   - Bad hombres
+  - James Comey
+  - Michael Flynn
+  - confidential FBI dossiers
 action:
   - to ban %{object}
   - to repeal %{object} Act
@@ -42,6 +45,8 @@ action:
   - commands %{object} to shut up
   - "on %{object}: 'untrue, fake news',"
   - will make Mexicans pay for %{object}
+  - fires %{object}
+  - to send %{object} to Putin
 adverbial:
   - today
   - after his golf game
