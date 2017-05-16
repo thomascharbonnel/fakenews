@@ -8,6 +8,8 @@ import (
   "path/filepath"
   "mime"
   "math/rand"
+  "flag"
+  "strconv"
 )
 
 func ServePicture(w http.ResponseWriter, r *http.Request, image_path string) {
@@ -18,6 +20,9 @@ func ServePicture(w http.ResponseWriter, r *http.Request, image_path string) {
 func main() {
   files, err := ioutil.ReadDir("./pictures")
   check(err)
+
+  port := flag.Int("p", 8080, "a port number")
+  flag.Parse()
 
   http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
     headline := generateHeadline(parseFile("./content.yml"))
@@ -42,5 +47,6 @@ func main() {
     http.ServeFile(w, r, "style.css")
   })
 
-  log.Fatal(http.ListenAndServe(":8080", nil))
+  log.Printf("Server will start on port %d.", *port)
+  log.Fatal(http.ListenAndServe(":" + strconv.Itoa(*port), nil))
 }
